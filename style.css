@@ -64,17 +64,39 @@ ul {
     color: #fff;
 }
 
+.l-bg-blue h2 {
+    color: #ffffff;
+}
+
 .l-bg-sky {
     background-color: #F7FAFF;
 }
+
+.l-bg-gray {
+    background-color: #505050;
+    color: #ffffff;
+}
+
+.l-bg-gray .unit-title {
+    color: #fff;
+}
+
 
 /*余白*/
 .l-mb-18 {
     margin-bottom: 72px;
 }
 
+.l-mb-12 {
+    margin-bottom: 48px;
+}
+
 .l-p-15 {
     padding: 60px;
+}
+
+.l-p-10 {
+    padding: 40px;
 }
 
 .l-pb-10 {
@@ -90,6 +112,8 @@ ul {
 }
 
 
+
+
 /*テキスト*/
 .l-text-center {
     text-align: center;
@@ -97,6 +121,15 @@ ul {
 
 .l-text-right {
     text-align: right;
+}
+
+.l-text-center.btn {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.l-text-right .btn {
+    margin-left: auto;
 }
 
 /*モジュール
@@ -140,9 +173,14 @@ ul {
 
 }
 
+.card--outline {
+    background-color: transparent;
+    border: 1px solid;
+}
+
 /*btn*/
 .btn {
-    display: block;
+    display: inline-block;
     width: 200px;
     margin-top: 60px;
     padding: 20px;
@@ -157,4 +195,13 @@ ul {
 
 .btn--info {
     background-color: #2DBE61;
+}
+
+.btn--question {
+    background-color: #F87624;
+}
+
+.btn--outline {
+    background-color: transparent;
+    border: 1px solid;
 }
